@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>  
+        <div class="container">  
+            <nav class="flex items-centre justify-between">  
+                <div class="left flex justfiy-right">  
+                    <div class="logo">  
+                        <img src="IMG/logo.png" width="50px" alt="logo">  
+                    </div>  
+                    <div class="header-icons">  
+                        <a href="#">Home</a>  
+                        <a href="#">About</a>  
+                        <a href="#">Services</a>  
+                        <a href="#">Blog</a></li>  
+                        <a href="#">More</a>  
+                    </div>  
+                </div>  
+                <div class="right">  
+                    <button class="btn btn-primary" onclick="Redirect_contact();" >Contact</button>  
+                </div>  
+            </nav>
+        </div>  
+    </header>
+    <div class="hero flex items-centre justify-between" style="gap: 20px;">
+        <div class="left flex">
+            <img src="IMG/main-img1.jpg" alt="Profile">
+        </div>
+        <div class="right flex-1">
+            <h2>Hi <span class="hi">👋</span></h2><br>
+            <h6><span>I'm </span> Rajan Jaiswal</h6>
+            <h1>I'm a Web<br> <span>Developer</span></h1>
+            <p style="padding-right: 50px;">
+                Hello there, I'm a Web-Developer as well as a data science Student and You can know more about me by downloading the CV from below button.  
+                <br>
+                Thank You...!
+            </p>
+            <div>
+                <button class="btn btn-secondary">DOWNLOAD CV</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-container flex justify-between">
+        <div class="left justify-right">
+                <img src="IMG/main-img2.png" height="465px" alt="profile pic">
+        </div>
+        <div class="right">
+            <div class="about-text-container">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm <span>Rajan Jaiswal.</span></h3>
+                <p style="margin-left: 20px;">
+                    I’m a graduate Student at Noida Institute of Engineering and Technology, Greater Noida with a degree in Data Science Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.
+                </p>
+                <div class="media-button">
+                    <a href="https://www.linkedin.com/in/rajan-jaiswal-65143926a/" style="background-color: #4267b2;" class="link" target="_blank" title="click to view">
+                        <i class='bx bxl-linkedin' ></i>                        
+                    </a>
+                    <a href="https://twitter.com/Ujjawal_p_s" style="background-color: #1da1f2;" class="link" target="_blank" title="click to view">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://www.instagram.com/_rajan.jaiswal/" style="background-color: #e1306c;" class="link" target="_blank" title="click to view">
+                        <i class='bx bxl-instagram' ></i>            
+                    </a>
+                    <a href="https://github.com/Ujjawalps" style="background-color: #000000; font-size: 42px;" class="link" target="_blank" title="click to view">
+                        <i class='bx bxl-github'></i>      
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="devider">
+
+    </div>
+
+    <div class="container-skill flex justify-between">
+        <div class="left justify-right">
+            <h1>
+                S<span>KILL</span>S
+            </h1>
+            <br>
+            <div class="skill-box">
+                <span class="title">HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">JavaScript</span>
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                        <span class="tooltip">50%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">NodeJS</span>
+                <div class="skill-bar">
+                    <span class="skill-per nodejs">
+                        <span class="tooltip">30%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="right justfiy-right">
+            <img src="IMG/pngwing.com(1).png" alt="">
+        </div>
+    </div>
+
+    <!-- <div class="skill-container" style="border-color: #e1306c;">
+        
+        
+    </div> -->
+    
+    
+    
+
+</body>
+
+<script>
+    function Redirect_contact(){
+        window.location = "contact.html"
+    }
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
